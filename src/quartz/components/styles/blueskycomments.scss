@@ -1,0 +1,89 @@
+.bluesky-comments {
+  margin-top: 0.2em;
+  border-top: 1px solid var(--lightgray);
+  padding-top: 0.5em;
+}
+
+.bsky-comment {
+
+  margin-bottom: 0.2em;
+  padding-left: 0.8em;
+}
+
+.bsky-replies {
+    margin-left: 0.1em;
+    border-left: 1px solid var(--darkgray);
+    
+}
+
+
+
+.bsky-comment-author {
+    font-weight: var(--boldWeight);
+    font-weight: bold;
+
+}
+
+.bsky-op-author {
+    
+    text-decoration-thickness: 2px;
+}
+
+.bsky-profile-picture {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin: 0;
+    margin-right: 0.6em;
+    margin: auto;
+
+
+}
+
+.bsky-comment-time {
+    font-size: 0.7em;
+    color: var(--darkgray);
+    margin-left: 0.5em;
+    font-style: italic;
+
+}
+
+.bsky-comment-handle {
+    font-size: 0.8em;
+    color: var(--darkgray);
+    margin-left: 0.5em;
+}
+
+.bsky-comment-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.bsky-comment-header-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    line-height: 0.8rem;
+    padding-left: 0.5em;
+}
+
+.bsky-comment-header-text > h1, .bsky-comment-header-text > h2, .bsky-comment-header-text > h3, .bsky-comment-header-text > p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.bsky-comment-text {
+    margin-left: 0.1em;
+    margin-top: 0.2em;
+    padding: 0;
+}
+
+.bsky-more-replies {
+    margin-left: 0.1em;
+    font-size: 0.8em;
+    margin-left: 0.1em;
+    border-left: 1px solid var(--darkgray);
+    padding-left: 1em;
+}
