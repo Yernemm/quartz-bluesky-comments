@@ -120,7 +120,7 @@ document.addEventListener("nav", () => {
                 commentsHtml += recursiveCommentParser(reply, author);
             });
 
-            document.getElementById("bluesky-comment-count")!.textContent = commentCount.toString();
+            document.getElementById("bluesky-comment-count")!.textContent = commentCount.toString() + (commentCount === 1 ? " Comment" : " Comments");
            
             commentsContainer.innerHTML = commentsHtml;
         })

@@ -20,7 +20,7 @@ export default ((opts: Options) => {
 
     return (
       <div>
-        <h1><span id="bluesky-comment-count"></span> Comments</h1>
+        <h1><span id="bluesky-comment-count"></span></h1>
         <p><a href={postUrl} target="_blank" rel="noopener noreferrer">
           <i>Join the conversation on Bluesky!</i>
         </a></p>
