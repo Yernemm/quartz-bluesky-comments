@@ -2,7 +2,7 @@
 //find bluesky-comments
 
 let commentCount = 0;
-const maxDepth = 4;
+const maxDepth = 5;
 
 function recursiveCommentParser(comment: any, author: string, depth: number = 0): string {
 
@@ -64,7 +64,7 @@ function recursiveCommentParser(comment: any, author: string, depth: number = 0)
 
             commentsHtml += `<div class="bsky-replies">`;
             for (const reply of comment.replies) {
-                commentsHtml += recursiveCommentParser(reply, author, depth + 1);
+                commentsHtml += recursiveCommentParser(reply, author, depth + 2);
             }
             commentsHtml += `</div>`;
 
